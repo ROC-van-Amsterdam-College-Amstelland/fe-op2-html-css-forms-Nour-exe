@@ -1,0 +1,6 @@
+div.formulier{
+    height: 700px;
+    width: 350px;
+    border: black 3px solid;
+    display: flex;
+}
