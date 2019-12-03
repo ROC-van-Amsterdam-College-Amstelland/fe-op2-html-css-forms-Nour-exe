@@ -1,6 +1,27 @@
-div.formulier{
-    height: 700px;
-    width: 350px;
-    border: black 3px solid;
-    display: flex;
+.container {
+  border: solid 3px black;
+height: 100%;
+width: 50%;
+margin: 10px;
+}
+
+#blok1 , #blok2 , #blok3 , #blok4 , #blok5 , #blok6 , #blok{
+margin: 10px;
+display: flex;
+flex-direction: row;
+height: 45px;
+width: 75%;
+justify-content: space-between;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#blok0{
+color: green ;
+justify-content: space-between;
+font-family: "Comic Sans MS", cursive, sans-serif;
+padding: 10px;
+}
+
+#blokkie1 , #blokkie2, #blokkie3, #blokkie4 ,#blokkie5 ,#blokkie6{
+    border: 2px solid black;
 }
